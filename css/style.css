@@ -1,5 +1,9 @@
 @import 'header.css';
 @import 'review.css';
+@import 'footer.css';
+@import 'write.css';
+@import 'showreview.css';
+@import 'deal.css';
 
 @font-face {
     font-family: 'GmarketSansLight';

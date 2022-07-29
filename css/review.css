@@ -1,3 +1,80 @@
+.titleDiv{
+    display: flex;
+    flex-direction: row;
+}
+
 .title{
     
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 196px;
+    margin-top:56px;
+   
 }
+
+.startBtn{
+    margin-top:56px;
+    margin-left: 880px;
+    float: right;
+    font-weight: bold;
+    border: 3px solid #152457;
+    color: #152457;
+    border-radius: 8px;
+    width: 139px;
+    height: 41px;
+}
+
+#searching{
+    background-color: #F5F5F5;
+    width:80%;
+    font-size: 20px;
+    border: none;
+    margin-left: 170px;
+    width:1000px;
+    outline:none;
+    font-size:18px;
+    padding:20px;
+}
+
+#searchSubmit{
+    background-color : #E0E1DB;
+    border:none;
+    padding:20px;
+    width: 153px;
+    
+}
+
+.reviewListDiv{
+    /* display:flex; */
+    height: 1502px;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(#A9BCD4, white);
+    padding-top: 100px;
+}
+
+.reviewItem{
+    font-size: 20px;
+    display:flex;
+    /* background-color: beige; */
+    flex-direction: row;
+    padding-bottom:10px;
+    margin-top:10px;
+    margin-left:170px;
+    margin-right:170px;
+    border-bottom: 1px solid #D1DCD1;
+    
+}
+
+.reviewId{
+    padding-left:50px;
+    padding-right:83px;
+}
+/* .reviewAuthor{
+    padding-left:20px;
+}
+
+.reviewDate{
+    text-align:right;
+    background-color: antiquewhite;
+    padding-left: 30px;
+} */

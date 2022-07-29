@@ -19,7 +19,7 @@
                 <li class="nav-item"><a href="">모집 게시판</a></li>
                 <li class="nav-item "><a href="./review.html">후기 게시판</a></li>
                 <li class="nav-item "><a href="">About sports</a></li>
-                <li class="nav-item "><a href="">거래 게시판</a></li>
+                <li class="nav-item "><a href="./deal.html">거래 게시판</a></li>
                 <li class="nav-item "><a href="">마이 페이지</a></li>
             </ul>
 
@@ -29,9 +29,56 @@
     </header>
     <script src="./js/header.js"></script>
 
-    <div class="Gmarket title">후기 게시판</div>
+    <div class="titleDiv">
+        <div class="Gmarket title">후기 게시판</div>
+        <a href="./write.html">
+            <button type="button" class="Gmarket startBtn btn">글 작성하기</button>
+        </a>
+    </div>
+
+    <div class="search">
+        <input type="text" id="searching" class="Gmarket my-5" placeholder="검색어를 입력하세요. "/>
+        <button type="button" id="searchSubmit" class="Gmarket">search</button>
+    </div>
+
+    <div class="Gmarket reviewListDiv">
+        <!-- <div class="reviewItem">
+            <div class="reviewId">{{post.id}}</div>
+            <div class="reviewTitle">{{post.title}}</div>            
+        </div> -->
+    </div>
+    
+    <script src="./js/data.js"></script> 
+    <script src="./js/review.js"></script>
+
+
+
 
     
-    
+
+
+
+    <!-- <footer class="footer">
+        <div class="box">
+            <div class="wrapper">
+                CONTACT US
+            </div>
+            <div class="wrapper">
+                    +02 795 1635
+                    Spolife@email.net
+            </div>
+            <div class="wrapper">
+                INFORMATION
+            </div>
+        </div>
+        <div class="box">
+            <div class="wrapper1">
+                (주) Spolife  |  대표이사: 박성연 | 서울시 서대문구 북아현동 1009  |  개인정보관리책임자: 김민수
+        전화번호 000-000-0000(수신자 부담)  | 팩스번호 02-234-2344  |  문의시간 오전 10시-오후6시
+        공정거래위원회 고시 제 2000-1호에 따른 사업자등록번호 110-23-23323
+        통신판매업신고번호 제 2020-서울강남-03324호 4  |  사업자정보확인 
+            </div>
+        </div>
+        </footer> -->
 </body>
 </html>

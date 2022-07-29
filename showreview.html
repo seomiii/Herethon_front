@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navibar Gmarket">
+            <a href="./home.html">
+                <img src="./img/logo.png" class="logo">
+            </a>
+            <ul class="nav-container">                
+                <li class="nav-item"><a href="">모집 게시판</a></li>
+                <li class="nav-item "><a href="./review.html">후기 게시판</a></li>
+                <li class="nav-item "><a href="">About sports</a></li>
+                <li class="nav-item "><a href="">거래 게시판</a></li>
+                <li class="nav-item "><a href="">마이 페이지</a></li>
+            </ul>
+
+            <img src="./img/user.png" class="userimg">
+            <div class="user_name">yeeonn</div>
+        </nav>
+    </header>
+
+    <div class="bar">
+        <div class="reviewBar Gmarket">후기 게시판</div>
+    </div>
+
+    <div class="contentDivDiv">
+        <div id="title" class="Gmarket">{{.title}}</div>
+        <div class="star Gmarket">별점 3/5</div>
+        <div rows="10" cols="40" id="contentcontent" class="Gmarket">{{.content}}</div>        
+    </div>
+
+    <div class="replDiv">
+        <input type="text" id="repl" class="Gmarket" placeholder="댓글을 입력하세요."/>
+        <input type="button" class="Gmarket" value="✏️" id="btnbtn"/>
+    </div>
+
+    <div class="replrepl">
+        <div class="repluser Gmarket">User</div>
+        <div class="replcontent Gmarket">아무 책상을 지나고 이름자 별 계절이 별 거외다. 
+            새워 이웃 때 까닭이요,
+             하나에 쓸쓸함과 것은 헤일 그러나 버리었습니다.
+              까닭이요, 하나에 내 언덕 강아지, 별 멀리 불러 
+              까닭입니다.
+        </div>
+    </div>
+
+
+
+    
+    <!-- <script src="./data.js"></script>
+    <script src="./showreview.js"></script> -->
+</body>
+</html>
